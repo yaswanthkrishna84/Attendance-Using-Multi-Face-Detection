@@ -12,25 +12,25 @@ An Android as frontend and Python as backend face recognition app used on attend
 
 ## Python - Backend
 
-1. Create a python virtual environment
+1. Create a python virtual environment <br>
    -> `python3 -m virtualenv env`
-2. Active env
+2. Active env <br>
    -> `source env/bin/activate`
-3. Install all required library
+3. Install all required library <br>
    -> `pip install -r requirements.txt`
-4. First Record face of the person using python app -
-   -> `python3 face_generate.py`
+4. First Record face of the person using python app - <br>
+   -> `python3 face_generate.py` <br>
    -> It will ask you to enter person name, enter and when camera open let read your face.
    -> for better result, move your face on different direction to record
-5. After Record done, train dataset. It will regenerate new model with all recorded face. Face images will be on dataset named folder.
-   -> `python3 face_train.py`
+5. After Record done, train dataset. It will regenerate new model with all recorded face. Face images will be on dataset named folder. <br>
+   -> `python3 face_train.py` <br>
    -> It will create a new model file named "trained_knn_model.clf"
-6. Now keep run the API
-   -> `python3 face_api.py`
+6. Now keep run the API <br>
+   -> `python3 face_api.py` <br>
    -> You can modify this file as per your requirements
 7. After completion of taking attendance, you have to stop the API and need to remove the duplicates from the attendance.xlsx file. For that follow below steps
-   -> 1. `python3 xl_to_csv.py`
-   -> 2. `python3 face_remove_duplicate.py`
+   -> 1. `python3 xl_to_csv.py` <br>
+   -> 2. `python3 face_remove_duplicate.py` <br>
    -> It will create a new file named "Final_attendance.xlsx"
 
 ## Android - Frontend
@@ -46,5 +46,4 @@ An Android as frontend and Python as backend face recognition app used on attend
 
 ## Output
 
-The output will be in the form of excel sheet. The excel sheet will contain the name of the person and the time of the attendance. The excel sheet will be in the following format.
-![alt text](Final_attendance.xlsx)
+The output will be in the form of excel sheet. The excel sheet will contain the name of the person and the time of the attendance. The excel sheet will be in the following format.The Name of the Excel sheet will be Final_attendance.xlsx
