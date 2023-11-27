@@ -46,6 +46,4 @@ An Android as frontend and Python as backend face recognition app used on attend
 
 ## Output
 
-The output will be in the form of excel sheet. The excel sheet will contain the name of the person and the time of the attendance. The excel sheet will be in the following format.The Name of the Excel sheet will be
-
-##### Final_attendance.xlsx
+The output will be in the form of excel sheet. The excel sheet will contain the name of the person and the time of the attendance.
