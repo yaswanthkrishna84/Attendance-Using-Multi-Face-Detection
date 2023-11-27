@@ -1,0 +1,17 @@
+flask
+dlib
+face_recognition
+pillow
+imutils
+numpy
+opencv-python
+h5py
+sklearn
+scikit-learn==1.3.0
+scipy
+matplotlib
+pandas
+openpyxl
+xlrd
+pyexcel
+pyexcel-xlsx
