@@ -28,7 +28,7 @@ An Android as frontend and Python as backend face recognition app used on attend
 6. Now keep run the API <br>
    -> `python3 face_api.py` <br>
    -> You can modify this file as per your requirements
-7. After completion of taking attendance, you have to stop the API and need to remove the duplicates from the attendance.xlsx file. For that follow below steps
+7. After completion of taking attendance, you have to stop the API and need to remove the duplicates from the attendance.xlsx file. For that follow below steps<br>
    -> 1. `python3 xl_to_csv.py` <br>
    -> 2. `python3 face_remove_duplicate.py` <br>
    -> It will create a new file named "Final_attendance.xlsx"
