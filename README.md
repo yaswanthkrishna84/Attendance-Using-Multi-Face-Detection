@@ -2,11 +2,11 @@
 
 An Android as frontend and Python as backend face recognition app used on attendance management
 
-#Python
-#Flask
-#Tensorflow
-#Android
-#Tenserflow-lite
+#Python <br>
+#Flask <br>
+#Tensorflow <br>
+#Android <br>
+#Tenserflow-lite <br>
 
 # Follow These Steps
 
