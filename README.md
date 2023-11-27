@@ -18,7 +18,6 @@ An Android as frontend and Python as backend face recognition app used on attend
    -> `source env/bin/activate`
 3. Install all required library
    -> `pip install -r requirements.txt`
-   (By mistake or any how sklearn not install by above command , use this - python3 -m pip install -U scikit-learn scipy matplotlib)
 4. First Record face of the person using python app -
    -> `python3 face_generate.py`
    -> It will ask you to enter person name, enter and when camera open let read your face.
@@ -29,6 +28,10 @@ An Android as frontend and Python as backend face recognition app used on attend
 6. Now keep run the API
    -> `python3 face_api.py`
    -> You can modify this file as per your requirements
+7. After completion of taking attendance, you have to stop the API and need to remove the duplicates from the attendance.xlsx file. For that follow below steps
+   -> 1. `python3 xl_to_csv.py`
+   -> 2. `python3 face_remove_duplicate.py`
+   -> It will create a new file named "Final_attendance.xlsx"
 
 ## Android - Frontend
 
@@ -40,3 +43,8 @@ An Android as frontend and Python as backend face recognition app used on attend
    -> also because it is asynchronous and its keep calling..
    -> If result is [] , mean face not matched
    -> You need to manage flag for this.
+
+## Output
+
+The output will be in the form of excel sheet. The excel sheet will contain the name of the person and the time of the attendance. The excel sheet will be in the following format.
+![alt text](Final_attendance.xlsx)
